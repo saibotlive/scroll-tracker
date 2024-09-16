@@ -89,7 +89,7 @@ You can also add the scroll depth tracker to any webpage by injecting the compil
 
 ```javascript
 const scrollScript = document.createElement('script');
-scrollScript.src = '{your-domain}/assets/index-V00l8ZLT.js';
+scrollScript.src = 'https://scroll-tracker-smoky.vercel.app/assets/index-p1OYowWF.js';
 document.body.appendChild(scrollScript);
 ```
 

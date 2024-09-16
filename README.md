@@ -8,8 +8,6 @@ Scroll Tracker is a small React and TypeScript project that tracks user scroll d
 - [Usage](#usage)
 - [How it Works](#how-it-works)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 

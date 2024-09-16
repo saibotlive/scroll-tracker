@@ -18,7 +18,7 @@ function App() {
     };
   }, []);
 
-  return <div className="App">{process.env.NODE_ENV === 'development' && <DummyArticle />}</div>;
+  return <div className="App">{import.meta.env.MODE === 'development' && <DummyArticle />}</div>;
 }
 
 export default App;

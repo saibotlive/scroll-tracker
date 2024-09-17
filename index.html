@@ -2,12 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Scroll Depth Tracker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      article {
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+    </style>
   </head>
   <body>
-    <div id="saibotlive-scroll-tracker"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <article id="article">
+      <h1>Scroll to track depth!</h1>
+      <p>Here is the content of the article. Scroll down...</p>
+      <!-- Generate 100 paragraphs for testing -->
+      <script>
+        for (let i = 1; i <= 100; i++) {
+          document.write(`<p>This is paragraph ${i}</p>`);
+        }
+      </script>
+    </article>
+
+    <!-- Include the scroll-tracker.js file -->
+    <script src="scroll-tracker.js"></script>
   </body>
 </html>
